@@ -1,0 +1,15 @@
+chrom,binStart,binEnd,significance,count
+chr1,155000000,155250000,Benign,2
+chr1,155000000,155250000,Likely_benign,3
+chr1,155000000,155250000,Likely_pathogenic,3
+chr1,155000000,155250000,Pathogenic,3
+chr1,155000000,155250000,Uncertain_significance,3
+chr1,156000000,156250000,Likely_benign,3
+chr1,156000000,156250000,Likely_pathogenic,3
+chr1,156000000,156250000,Pathogenic,3
+chr1,156000000,156250000,Uncertain_significance,3
+chr1,156750000,157000000,Benign,3
+chr1,156750000,157000000,Likely_benign,3
+chr1,156750000,157000000,Likely_pathogenic,3
+chr1,156750000,157000000,Pathogenic,3
+chr1,156750000,157000000,Uncertain_significance,3

@@ -1,0 +1,58 @@
+.app {
+  max-width: 1400px;
+  margin: 1.5rem auto;
+  padding: 0 1rem;
+  font-family: sans-serif;
+}
+
+.app-header {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.app-header h1 {
+  margin: 0 0 0.35rem;
+  font-size: 22px;
+  color: #111;
+}
+
+.app-header p {
+  margin: 0;
+  max-width: 900px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #555;
+}
+
+@media (prefers-color-scheme: dark) {
+  .app-header h1 {
+    color: #f3f4f6;
+  }
+  .app-header p {
+    color: #a8a8a8;
+  }
+}
+
+.cockpit {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+.cockpit-vis {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+@media (max-width: 1200px) {
+  .cockpit {
+    flex-direction: column;
+  }
+
+  .cockpit .dossier {
+    position: static;
+    width: 100%;
+    flex-basis: auto;
+    max-height: none;
+  }
+}
